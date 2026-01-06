@@ -1,13 +1,26 @@
 {
   "name": "marmot-narrow-to-region",
   "displayName": "Marmot Narrow to Region",
-  "description": "Narrow a selected region to a temporary file for focused editing with full IntelliSense.",
+  "description": "你受夠隊友的波動拳嗎? 介紹你波動拳殺手 Marmot Narrow to Region",
   "version": "0.0.1",
+  "publisher": "marmot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weber87na/marmot-narrow-to-region"
+  },
   "engines": {
     "vscode": "^1.107.0"
   },
   "categories": [
     "Editor"
+  ],
+  "keywords": [
+    "narrow",
+    "region",
+    "focus",
+    "emacs",
+    "marmot"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -15,11 +28,13 @@
     "commands": [
       {
         "command": "marmot-narrow-to-region.narrow",
-        "title": "Narrow to Region"
+        "title": "Marmot: Narrow to Region",
+        "category": "Marmot"
       },
       {
         "command": "marmot-narrow-to-region.widen",
-        "title": "Widen Region (Exit)"
+        "title": "Marmot: Widen Region (Exit)",
+        "category": "Marmot"
       }
     ],
     "keybindings": [
